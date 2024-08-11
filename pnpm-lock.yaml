@@ -28,13 +28,13 @@ importers:
         specifier: ^15.2.8
         version: 15.2.8
       typescript:
-        specifier: ^5.5.4
+        specifier: 5.5.4
         version: 5.5.4
       vitepress:
-        specifier: ^1.3.2
+        specifier: 1.3.2
         version: 1.3.2(@algolia/client-search@4.24.0)(postcss@8.4.41)(search-insights@2.16.2)(typescript@5.5.4)
       vue-tsc:
-        specifier: ^2.0.29
+        specifier: 2.0.29
         version: 2.0.29(typescript@5.5.4)
 
 packages:
