@@ -26,6 +26,9 @@
     "vitepress": "1.3.2",
     "vue-tsc": "2.0.29"
   },
+  "imports": {
+    "#components*": "./components/*"
+  },
   "lint-staged": {
     "*": "eslint --no-warn-ignored"
   }
