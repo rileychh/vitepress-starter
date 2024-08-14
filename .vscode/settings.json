@@ -51,7 +51,8 @@
   // Markdownlint
   "markdownlint.config": {
     "no-inline-html": false,
-    "no-emphasis-as-heading": false
+    "no-emphasis-as-heading": false,
+    "first-line-h1": false
   },
   "typescript.tsdk": "node_modules/typescript/lib"
 }

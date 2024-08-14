@@ -8,7 +8,6 @@ export default antfu(
   {
     rules: {
       'antfu/if-newline': 'off',
-      'antfu/top-level-function': 'off',
       'curly': ['error', 'multi-line', 'consistent'],
       'node/prefer-global/buffer': ['error', 'always'],
       'node/prefer-global/process': ['error', 'always'],
