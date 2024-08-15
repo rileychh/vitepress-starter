@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: Component Example
       link: /component-example
+    - theme: alt
+      text: Data Loader Example
+      link: /loader-example
 
 features:
   - title: Feature A
