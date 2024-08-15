@@ -40,7 +40,7 @@ jobs:
         run: pnpm install
 
       - name: Build with VitePress
-        run: pnpm build
+        run: pnpm build --base /vitepress-starter/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
