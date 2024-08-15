@@ -20,6 +20,8 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Component Example', link: '/component-example' },
+          { text: 'Data Loader Example', link: '/loader-example' },
         ],
       },
     ],
