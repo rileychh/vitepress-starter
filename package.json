@@ -27,8 +27,7 @@
     "vue-tsc": "2.0.29"
   },
   "imports": {
-    "#components*": "./components/*",
-    "#loaders*": "./loaders/*"
+    "#*": "./*"
   },
   "lint-staged": {
     "*": "eslint --no-warn-ignored"
