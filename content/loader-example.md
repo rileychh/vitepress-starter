@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { data as todos } from "#loaders/todos.data.ts"
 </script>
 

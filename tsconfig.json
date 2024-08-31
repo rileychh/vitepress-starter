@@ -22,6 +22,13 @@
     "skipLibCheck": true
   },
 
+  "include": [
+    ".vitepress/**/*",
+    "components/**/*",
+    "content/**/*",
+    "loaders/**/*"
+  ],
+
   "vueCompilerOptions": {
     "vitePressExtensions": [
       ".md"
