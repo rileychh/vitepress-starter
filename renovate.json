@@ -1,19 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:best-practices"
+    "config:best-practices",
+    "config:js-app",
+    "group:allNonMajor",
+    "schedule:weekly"
   ],
-  "rangeStrategy": "bump",
-  "timezone": "Asia/Taipei",
-  "schedule": "every weekend",
-  "packageRules": [
-    {
-      "matchPackageNames": ["eslint", "@antfu/eslint-config", "eslint-plugin-format"],
-      "groupName": "eslint"
-    },
-    {
-      "matchPackageNames": ["husky", "lint-staged"],
-      "groupName": "git hooks"
-    }
-  ]
+  "timezone": "Asia/Taipei"
 }
