@@ -13,8 +13,11 @@ function increment() {
     class="increment-button"
     @click="increment"
   >
-    {{ count }}
+    <IconPhPlus />
   </button>
+  <p>
+    The number is now {{ count }}.
+  </p>
 </template>
 
 <style>

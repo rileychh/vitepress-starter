@@ -1,7 +1,23 @@
 import { defineConfig } from 'vitepress'
+import Components from 'unplugin-vue-components/vite'
+import Icons from 'unplugin-icons/vite'
+import IconsResolver from 'unplugin-icons/resolver'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    plugins: [
+      Components({
+        // Auto import components and icons in Vue and Markdown files
+        dirs: ['../components'],
+        include: [/\.vue($|\?)/, /\.md($|\?)/],
+        resolvers: [
+          IconsResolver({ prefix: 'icon' }),
+        ],
+      }),
+      Icons({ compiler: 'vue3' }),
+    ],
+  },
   title: 'My Awesome Project',
   description: 'A VitePress Site',
   srcDir: 'content',
