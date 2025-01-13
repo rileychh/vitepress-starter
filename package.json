@@ -20,7 +20,7 @@
     "@antfu/eslint-config": "3.12.1",
     "@iconify-json/ph": "1.2.2",
     "eslint": "9.17.0",
-    "eslint-plugin-format": "0.1.3",
+    "eslint-plugin-format": "1.0.1",
     "husky": "9.1.7",
     "lint-staged": "15.3.0",
     "typescript": "5.7.2",
