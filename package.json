@@ -24,7 +24,7 @@
     "husky": "9.1.7",
     "lint-staged": "15.4.2",
     "typescript": "5.7.3",
-    "unplugin-icons": "0.22.0",
+    "unplugin-icons": "22.0.0",
     "unplugin-vue-components": "0.28.0",
     "vitepress": "1.6.3",
     "vue-tsc": "2.2.0"
