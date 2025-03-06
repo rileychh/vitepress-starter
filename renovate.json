@@ -4,7 +4,7 @@
     "config:best-practices",
     "config:js-app",
     "group:allNonMajor",
-    "schedule:weekly"
+    "schedule:monthly"
   ],
   "timezone": "Asia/Taipei"
 }
