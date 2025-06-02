@@ -1,6 +1,9 @@
 {
   "type": "module",
   "packageManager": "pnpm@10.11.0",
+  "imports": {
+    "#*": "./*"
+  },
   "engines": {
     "node": ">=20.17.0"
   },
@@ -28,9 +31,6 @@
     "unplugin-vue-components": "28.7.0",
     "vitepress": "1.6.3",
     "vue-tsc": "2.2.10"
-  },
-  "imports": {
-    "#*": "./*"
   },
   "lint-staged": {
     "*": "eslint --no-warn-ignored --fix"
